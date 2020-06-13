@@ -7,11 +7,11 @@ function cleanup {
 }
 trap cleanup EXIT
 
-go build -o /tmp/service_a ./service_a
+go build -o /tmp/federated_service_a ./federated_service_a
 # go build -o /tmp/srv-products ./products
 # go build -o /tmp/srv-reviews ./reviews
 
-/tmp/srv-accounts &
+/tmp/federated_service_a &
 SERVICE_A_PID=$!
 
 # /tmp/srv-products &
