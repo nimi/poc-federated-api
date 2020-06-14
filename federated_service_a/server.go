@@ -11,7 +11,7 @@ import (
 	"github.com/nimi/poc-federated-api/federated_service_a/graph/generated"
 )
 
-const defaultPort = "8080"
+const defaultPort = "4001"
 
 func main() {
 	port := os.Getenv("PORT")

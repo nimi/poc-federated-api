@@ -21,3 +21,5 @@ SERVICE_A_PID=$!
 # REVIEWS_PID=$!
 
 sleep 1
+
+yarn start
