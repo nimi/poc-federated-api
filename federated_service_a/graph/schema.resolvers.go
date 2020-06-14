@@ -8,6 +8,7 @@ import (
 	"fmt"
 
 	"github.com/nimi/poc-federated-api/federated_service_a/graph/generated"
+	"github.com/nimi/poc-federated-api/federated_service_a/graph/model"
 )
 
 func (r *mutationResolver) CreateTodo(ctx context.Context, input model.NewTodo) (*model.Todo, error) {

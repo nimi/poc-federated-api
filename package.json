@@ -1,0 +1,23 @@
+{
+  "name": "gateway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gateway/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/gateway": "^0.16.6",
+    "apollo-server": "^2.x",
+    "graphql": "^14.x"
+  },
+  "devDependencies": {
+    "apollo-cache-inmemory": "^1.x",
+    "apollo-client": "^2.x",
+    "apollo-link-http": "^1.x",
+    "jest": "^25.x",
+    "node-fetch": "^2.x"
+  }
+}
